@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="he">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>מועדון הכלב הנודד</title>
+    
+    <style> 
+    body{direction: rtl;}
+    </style>
+  </head>
+
+  <body>
+    <h1>הרשמה למועדון הכלב הנודד</h1>
+    <h3>טופס זה מנוסח בלשון זכר אך מתיחס לנשים ,גברים וכלבים כאחד.</h3>
+    <form action="https://formspree.io/f/myyokdzy" method="post">
+    <h4>סעיף 1: פרטים אישיים</h4>
+    <input type="date" name="date" />&nbsp;<label>תאריך</label> <br /><br />
+    <div>
+      <input type="text" name="fname" placeholder="שם פרטי" required />
+      <input type="text" name="lname" placeholder="שם משפחה" required />
+    </div>
+    <br />
+    <div>
+      <input
+        type="number"
+        name="id"
+        value="id-number"
+        placeholder="מספר זהות"
+        required
+      />
+      <input type="date" name="date" required />&nbsp;<label>תאריך לידה</label>
+    </div>
+    <br />
+    <div>
+      <input type="email" name="email" placeholder="Enter Email" required />
+      <input type="tel" name="phone" placeholder="טלפון נייד" required />
+      <input type="tel" name="home_phone" placeholder="טלפון בית" required />
+    </div>
+    <br />
+    <div>
+      <input type="text" name="city_address" placeholder="עיר מגורים" />
+      <input type="text" name="street_address" placeholder="רחוב" />
+      <input
+        type="number"
+        name="number_address"
+        placeholder="מספר"
+      /><br /><br />
+      <input type="number" name="zip_code" placeholder="מיקוד" />
+      <input type="text" name="enter_address" placeholder="כניסה" />
+    </div>
+    <div>
+      <p>סטטוס</p>
+      <input type="radio" name="status" value="bachelor" />רווק
+      <input type="radio" name="status" value="marrid" />נשוי
+      <input type="radio" name="status" value="divorced" />גרוש
+      <input type="radio" name="status" value="widower" />אלמן
+    </div>
+    <br /><br /><br />
+    <div>
+      <p>
+        במקרה אשר קיימים ילדים תחת חזקת ההורה נא מלא את סעיף 2, אם לא יש לדלג
+        לסעיף 3.
+      </p>
+      <h4>סעיף 2: פרטי ילדים</h4>
+      <h5>ילד א-</h5>
+    </div>
+    <div>
+      <input type="text" name="fname" placeholder="שם הילד" />
+      <input
+        type="number"
+        name="child_id"
+        value="child_id-number"
+        placeholder="מספר זהות"
+      />
+      <br /><br />
+      <input type="date" name="date" />&nbsp;<label>תאריך לידה</label
+      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="radio" name="sex" value="male" />זכר
+      <input type="radio" name="sex" value="female" />נקבה
+    </div>
+
+    <h5>ילד ב-</h5>
+    <div>
+      <input type="text" name="fname" placeholder="שם הילד" />
+      <input
+        type="number"
+        name="child_id"
+        value="child_id-number"
+        placeholder="מספר זהות"
+      />
+      <br /><br />
+      <input type="date" name="date" />&nbsp;<label>תאריך לידה</label
+      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="radio" name="sex" value="male" />זכר
+      <input type="radio" name="sex" value="female" />נקבה
+    </div>
+
+    <h5>ילד ג-</h5>
+    <div>
+      <input type="text" name="fname" placeholder="שם הילד" />
+      <input
+        type="number"
+        name="child_id"
+        value="child_id-number"
+        placeholder="מספר זהות"
+      />
+      <br /><br />
+      <input type="date" name="date" />&nbsp;<label>תאריך לידה</label
+      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="radio" name="sex" value="male" />זכר
+      <input type="radio" name="sex" value="female" />נקבה
+    </div>
+
+    <h5>ילד ד-</h5>
+    <div>
+      <input type="text" name="fname" placeholder="שם הילד" />
+      <input
+        type="number"
+        name="child_id"
+        value="child_id-number"
+        placeholder="מספר זהות"
+      />
+      <br /><br />
+      <input type="date" name="date" />&nbsp;<label>תאריך לידה</label
+      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="radio" name="sex" value="male" />זכר
+      <input type="radio" name="sex" value="female" />נקבה
+    </div>
+
+    <h4>סעיף 3:</h4>
+    <h4>יש למלא את פרטי הכלב/ים</h4>
+    <h5>כלב א -</h5>
+    <div>
+      <input type="text" name="k9_name" placeholder="שם הכלב" />
+      <input type="text" name="k9_breed" placeholder="גזע הכלב" /><br /><br />
+      <input type="number" name="k9_weight" placeholder="משקל הכלב" />
+      <input type="number" name="k9_age" placeholder="גיל הכלב" />
+      <input type="number" name="track_mumber" placeholder="מספר שבב" />
+      <input type="radio" name="sex" value="male" />זכר
+      <input type="radio" name="sex" value="female" />נקבה
+    </div>
+    <h5>כלב ב -</h5>
+    <div>
+      <input type="text" name="k9_name" placeholder="שם הכלב" />
+      <input type="text" name="k9_breed" placeholder="גזע הכלב" /><br /><br />
+      <input type="number" name="k9_weight" placeholder="משקל הכלב" />
+      <input type="number" name="k9_age" placeholder="גיל הכלב" />
+      <input type="number" name="track_mumber" placeholder="מספר שבב" />
+      <input type="radio" name="sex" value="male" />זכר
+      <input type="radio" name="sex" value="female" />נקבה
+    </div>
+    <h5>כלב ג -</h5>
+    <div>
+      <input type="text" name="k9_name" placeholder="שם הכלב" />
+      <input type="text" name="k9_breed" placeholder="גזע הכלב" /><br /><br />
+      <input type="number" name="k9_weight" placeholder="משקל הכלב" />
+      <input type="number" name="k9_age" placeholder="גיל הכלב" />
+      <input type="number" name="track_mumber" placeholder="מספר שבב" />
+      <input type="radio" name="sex" value="male" />זכר
+      <input type="radio" name="sex" value="female" />נקבה
+    </div>
+    <h5>כלב ד -</h5>
+    <div>
+      <input type="text" name="k9_name" placeholder="שם הכלב" />
+      <input type="text" name="k9_breed" placeholder="גזע הכלב" /><br /><br />
+      <input type="number" name="k9_weight" placeholder="משקל הכלב" />
+      <input type="number" name="k9_age" placeholder="גיל הכלב" />
+      <input type="number" name="track_mumber" placeholder="מספר שבב" />
+      <input type="radio" name="sex" value="male" />זכר
+      <input type="radio" name="sex" value="female" />נקבה
+    </div>
+    <h4>סעיף ד: כללי</h4>
+    <h5>בסעיף זה סמן את התשובות אשר מקושרות אל כלבך-</h5>
+    <div>
+      <input type="checkbox" name="cb1" id="1" /> הכלב שלי חי בתוך הבית
+      <br />
+      <input type="checkbox" name="cb2" id="2" /> הכלב שלי אוכל מזון מוצק בלבד
+      <br />
+      <input type="checkbox" name="cb3" id="3" />הכלב שלי מקבל חיסונים בזמן ובעל
+      פנקס עדכני
+      <br />
+      <input type="checkbox" name="cb4" id="4" />הכלב שלי <u>מעוקר/מסורס</u>
+      <br />
+      <input type="checkbox" name="cb5" id="5" />הכלב שלי אושפז במהלך השנתיים
+      האחרונות (אם וכן אז פרט:<input type="text" name="disease" id="5.5" />)
+      <br />
+      <input type="checkbox" name="cb6" id="6" />הכלב שלי בעל תעודת גזע טהור
+    </div>
+    <div>
+      <h5>
+        הקלד מלל קצר על סגנון החיים של כלבך (יש להתחשב בפרמטרים כגון:סוג המזון
+        הנצרך ועוד...)
+      </h5>
+      <textarea
+        name=""
+        id=""
+        rows="10"
+        cols="60"
+        placeholder="הכנס טקסט כאן"
+      ></textarea>
+    </div>
+    <h4>סעיף ה: פרטי בנק</h4>
+    <h5>יש למלא פרטי כרטיס אשראי</h5>
+    <div>
+      <input
+        type="text"
+        name="card_holder_name"
+        id="card_holder_name"
+        placeholder="שם בעל הכרטיס"
+        required
+      />
+      <input
+        type="number"
+        name="card_number"
+        id="card_number"
+        placeholder="מספר כרטיס"
+        required
+      /><br /><br />
+      <input
+        type="number"
+        name="card_ex_date"
+        id="card_ex_date"
+        placeholder="תוקף הכרטיס"
+      />
+      <input
+        type="password"
+        name="cvv"
+        min="0000"
+        max="9999"
+        placeholder="C V V"
+        required
+      />
+    </div>
+    <h4>סעיף ו: אישור תקנון</h4>
+    <div>
+      <p>
+        אני מתחייב להודיע "למועדון הכלב הנודד" (להלן: המועדון) על כל שינוי של
+        השותפים בחשבון או מיופי כוח בחשבון, ולוודא להחתימם על טופס עדכון
+        החשבון.<br />
+        אני מסכים שהבנק ימסור למועדון מעת לעת, לפי בקשתו את פרטיהם של השותפים
+        בחשבון ומיופי הכוח, במהלך תקופת החיוב החודשי.<br />
+        אני מסכים שהבנק הנ"ל יחזיר למועדון לפי דרישתו סכומים מתוך חשבוני, אם
+        המועדון יפקיד לחשבון תשלום אשר כולו או חלקו שולם בטעות או שלא כדין,
+        <br />וכן שהבנק ימסור למועדוןאת פרטיהם של מושכי התשלומים. (סעיף זה מיוחס
+        למקרה שבוא מחולקים פרסי זכיה בתחרויות)<br />
+        אני מסכים כי המועדון יפנה לבנק הנ"ל, באמצעות תקשורת ממחושבת,<br />
+        לצורך אימות בעלותי בחשבון הבנק כפי הצהרתי לעיל ושהבנק הנ"ל ו/או עובד
+        מטעמו ימסור למועדון את המידע הנחוץ לו לאימות פרטי חשבון הבנק שמסרתי
+        לעיל.<br />
+        לחילופין, ידוע לי כי המועדון רשאי לדרוש מסמכים ואישורים נוספים לצורך
+        ביצוע אימות פרטי חשבון הבנק שמסרתי לעיל וכי יהא עלי להמציאם לפי
+        דרישה.<br />
+        אני מצהיר בזה כי כל הפרטים שמסרתי הם נכונים ומלאים. ידוע לי,<br />
+        שמסירת פרטים לא נכונים או העלמת נתונים היא עבירה על החוק וכי אדם אשר
+        גורם במרמה או ביודעין ע"י העלמת פרטים שיש בהם חשיבות לעניין,<br />
+        דינו קנס כספי או מאסר. ידוע לי כי אם יחולו שינויים בפרטי התקשורת, עלי
+        להודיע על כך למועדון.<br />
+        במקרה שלא יעודכנו פרטי התקשורת, המידע ישלח באמצעות הערוצים אותם ציינת על
+        גבי הטופס.
+      </p>
+      
+      <input type="checkbox" name="approve" id="approve" required /><strong>סמן לאחר
+      שקראת ואישרת את התקנון</strong>
+      <br><br>
+      <input
+        type="text"
+        name="fullname"
+        id="fullname"
+        required
+        placeholder="שם מלא"
+      />&nbsp;&nbsp;&nbsp;
+      <input type="date" name="approve_date" id="approve_date" />&nbsp;&nbsp;&nbsp;
+      <button>הרשמה למועדון</button>
+      </form>
+    </div>
+  </body>
+</html>
