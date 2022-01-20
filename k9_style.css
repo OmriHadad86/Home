@@ -1,0 +1,60 @@
+body {
+  direction: rtl;
+}
+h4 {
+  color: rgb(214, 214, 214);
+  background-color: rgb(37, 37, 37);
+  width: 800px;
+}
+
+h1,
+h3 {
+  color: rgb(19, 19, 18);
+  letter-spacing: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+form {
+  background-color: rgb(209, 219, 230);
+  width: 800px;
+}
+.top_main {
+  background-color: rgb(209, 219, 230);
+  width: 800px;
+}
+.put_up input:valid {
+  border: #00ff37 2px solid;
+}
+.put_up input:invalid {
+  border: rgb(0, 0, 0) 2px solid;
+}
+.put_number_id input:valid {
+  border: #00ff37 2px solid;
+}
+.put_number_id input:invalid {
+  border: rgb(0, 0, 0) 2px solid;
+}
+.put_personal input:valid {
+  border: #00ff37 2px solid;
+}
+.put_personal input:invalid {
+  border: rgb(0, 0, 0) 2px solid;
+}
+.put_city input:valid {
+  border: #00ff37 2px solid;
+}
+
+.put_city input:invalid {
+  border: rgb(0, 0, 0) 2px solid;
+}
+.put_card input:valid {
+  border: #00ff37 2px solid;
+}
+.put_card input:invalid {
+  border: rgb(0, 0, 0) 2px solid;
+}
+.put_approve input:valid {
+  border: #00ff37 2px solid;
+}
+.put_approve input:invalid {
+  border: rgb(0, 0, 0) 2px solid;
+}
